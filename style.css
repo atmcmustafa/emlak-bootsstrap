@@ -1,0 +1,47 @@
+@media  (max-width:576px){
+
+
+    .slide {
+        position: relative;
+    }
+
+.slide-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: calc(30% - 100px);
+}
+    
+}
+
+
+.bg-gray {
+        background-color: #f5f6fa;
+}
+
+.ms-6 {
+    margin-left: 10rem;
+}
+
+.slide-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: calc(39% - 100px);
+}
+
+.offers {
+    background-image: url(img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.navbar {
+    z-index: 2;
+}
